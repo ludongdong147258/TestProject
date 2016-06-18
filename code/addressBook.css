@@ -1,0 +1,101 @@
+html, body {
+  font-family: '微软雅黑';
+  font-size: 14px;
+  line-height: 1;
+  margin: 0;
+}
+
+input {
+  outline: none;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.address-book-title {
+  margin-bottom: 20px;
+}
+
+.address-book-table {
+  width: 100%;
+  margin-bottom: 30px;
+  border-collapse: collapse;
+}
+
+.address-book-table tr th, .address-book-table tr td {
+  height: 24px;
+  text-align: center;
+  border: 1px solid #c3b6b6;
+}
+
+.address-book-table tr td input {
+  color: #d02525;
+  background-color: #e6dfdf;
+}
+
+.address-book-table tr:nth-child(2n) {
+  background: #ddd;
+}
+
+.address-book-table tr td input {
+  cursor: pointer;
+}
+
+.address-book-box {
+  border: 1px solid #ddd;
+}
+
+.address-book-user {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.address-book-user input, .address-book-table tr td input {
+  box-sizing: border-box;
+  height: 30px;
+  padding-left: 5px;
+  border: 1px solid #d0bbbb;
+  border-radius: 3px;
+}
+
+.address-book-table tr td input:hover {
+  color: #fff;
+  border: 1px solid #a15757;
+  background: #a15757;
+}
+
+.address-book-user input[type=text]:focus {
+  border: 1px solid #61bb98;
+}
+
+.address-book-user .user {
+  width: 100px;
+}
+
+.address-book-user .phone {
+  width: 120px;
+}
+
+.address-book-user .btn {
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid #61bb98;
+  background: #61bb98;
+}
+
+.address-book-user .btn:hover {
+  border: 1px solid #188360;
+  background: #188360;
+}
